@@ -10,6 +10,13 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "npm",
+            "script": "debug",
+            "problemMatcher": [],
+            "label": "npm: debug",
+            "detail": "yarn run build && yarn run watch-debug"
         }
     ]
 }
